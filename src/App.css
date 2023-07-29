@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-result {
+  float: left;
+}
+
+.search-elements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .search-elements {
+    flex: 0 0 50%;
+  }
+}
+
+input[type="date"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.search-button {
+  background-color: #4670f2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: skyblue;
+}
+
+.custom-select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-right: 12px;
+}
+
+.lbl-bold {
+  font-weight: bold;
+}
+
+.lbl-search-result {
+  color: grey;
+}

@@ -1,0 +1,18 @@
+.warning-section {
+  background-color: ghostwhite;
+}
+
+.heading {
+  color: #1d166a;
+  font-weight: bold;
+}
+
+.warning-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.warning-section li {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
